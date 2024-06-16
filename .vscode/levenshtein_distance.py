@@ -45,7 +45,7 @@ def levenshtein_distance(str1, str2):
           d[i - 1][j - 1] + cost  # Substitution
       )
 
-  return d[m - 1][n - 1]  # Levenshtein distance at the bottom right corner
+  return d[m - 1][n - 1]  # Levenshtein distance at the bottom right acorner
 
 # Example usagea
 str1 = input("Enter the first string: ")

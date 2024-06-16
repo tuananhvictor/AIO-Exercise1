@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*a
+# -*- coding: utf-8 -*aa
 import copy
 
 def sliding_max(number_list, k1):
