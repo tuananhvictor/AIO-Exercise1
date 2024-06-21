@@ -35,7 +35,7 @@ class Ward:
   def count(self):
     count = 0
     for person in self.person:
-      if type(person) ==  Doctor:
+      if isinstance(person,Doctor):
         count += 1
     return count
   def sort(self):
@@ -44,7 +44,7 @@ class Ward:
     total = 0
     count = 0
     for person in self.person:
-      if type(person) == Teacher:
+      if isinstance(person,Teacher):
         total += person.yob
         count += 1
     return total/count
